@@ -43,7 +43,7 @@ public class SettingsActivity extends PreferenceActivity
     bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_location_key)));
     bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_units_key)));
   }
-  @Override
+
   public boolean onPreferenceChange(Preference preference, Object value) {
     String stringValue = value.toString();
 
